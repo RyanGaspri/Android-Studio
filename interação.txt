@@ -1,0 +1,59 @@
+mport androidx.appcompat.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
+import android.os.Bundle;
+import android.widget.EditText;
+import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        EditText Usuario, Senha, Email, Telefone;
+        Button Entrar, Cadastrar, Alterar_Senha;
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        Usuario = findViewById(R.id.Usuario);
+        Senha = findViewById(R.id.Senha);
+        Email = findViewById(R.id.Email);
+        Telefone = findViewById(R.id.Telefone);
+
+        Entrar = findViewById(R.id.Entrar);
+        Cadastrar = findViewById(R.id.Cadastrar);
+        Alterar_Senha = findViewById(R.id.Alterar_Senha);
+
+
+        Entrar = .Entrar.setOnClickListener();
+        {
+            @Override
+            public void onClick (View v){
+            Toast.makeText(getApplicationContext(),
+                    "Login efetuado",
+                    Toast.LENGTH_SHORT).show();
+        }
+            Cadastrar = .Cadastrar.setOnClickListener();
+            {
+                @Override
+                public void onClick (View v){
+                Toast.makeText(getApplicationContext(),
+                        "Cadastro concluido",
+                        Toast.LENGTH_SHORT).show();
+            }
+            }
+        } ;
+        public class SuaTela extends AppCompatActivity {
+
+            @Override
+            protected void onCreate(Bundle savedInstanceState) {
+                super.onCreate(savedInstanceState);
+                setContentView(R.layout.);
+            }
+
+            public void proximaTela(View view){
+
+                Intent intent = new Intent(this, SegundaActivity.class);
+                startActivity(intent);
+            }
+        }
+    }
