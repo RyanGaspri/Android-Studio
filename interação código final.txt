@@ -1,0 +1,178 @@
+import android.os.Bundle;
+import android.
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+import android.widget.checkBox;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        EditText edtusuario, edtsenha, edtemail, edtelefone;
+        Button btnentrar, btncadastrar,  btnfacebook, btntwitter, btnlinkedin;
+
+
+        edtusuario = findViewById(R.id.edtsuario);
+        etdenha = findViewById(R.id.edtsenha);
+        edtemail = findViewById(R.id.edtemail);
+        Telefone = findViewById(R.id.Telefone);
+
+        btnentrar = findViewById(R.id.btnentrar);
+        btncadastrar = findViewById(R.id.btncadastrar);
+        btnfacebook = findViewById(R.id.btnfacebook);
+        btntwitter = findViewById(R.id.btntwitter);
+        btnlinkedin = findViewById(R.id.btnlinkedin);
+
+
+
+        btnentrar = .btnentrar.setOnClickListener();
+        btncadastrar = .btncadastrar.setOnClickListener();
+        btnfacebook = .btnfacebook.setOnClickListener();
+        btntwitter = .btntwitter.setOnClickListener();
+        btnentrar = .btnentrar.setOnClickListener();
+        btnlinkedin = .btnlinkedin.setOnClickListener();
+
+
+        btnentrar = .btnentrar.setOnClickListener();
+        {
+            @Override
+            public void onClick (View View){
+            Toast.makeText(getApplicationContext()),
+                    "Login efetuado",
+                    Toast.LENGTH_SHORT).show();
+        }
+            btncadastrar = .btncadastrar.setOnClickListener();
+            {
+                @Override
+                public void onClick (View View){
+                Toast.makeText(getApplicationContext()),
+                        "Cadastro concluido",
+                        Toast.LENGTH_SHORT).show();
+            }
+            }
+            btnfacebook = btnfacebook.setOnClickListener();
+            {
+                @Override
+                public void onClick (View View){
+                Toast.makeText(getApplicationContext()),
+                        "https://pt-br.facebook.com/",
+                        Toast.LENGTH_SHORT).show();
+            }
+                btntwitter = btntwitter.setOnClickListener();
+                {
+                    @Override
+                    public void onClick (View View){
+                    Toast.makeText(getApplicationContext()),
+                            "https://twitter.com/",
+                            Toast.LENGTH_SHORT).show();
+                }
+                }
+                btnlinkedin = btnlinkedin.setOnClickListener();
+                {
+                    @Override
+                    public void onClick (View View){
+                    Toast.makeText(getApplicationContext()),
+                            "https://br.linkedin.com/",
+                            Toast.LENGTH_SHORT).show();
+                }
+                }
+            } ;
+            public class segundaTela extends AppCompatActivity {
+                @Override
+                protected void onCreate(Bundle savedInstanceState) {
+                    super.onCreate(savedInstanceState);
+                    setContentView(R.layout.activity_main);
+
+
+                    @Override
+                    protected void onCreate(Bundle savedInstanceState) {
+                    super.onCreate(savedInstanceState);
+                    setContentView(R.layout.);
+
+                    EditText edtsuario, edtsenha;
+                    Button btnentrar, btnesqueceu, btncadastrar;
+
+                    btnentrar = findViewById(R.id.btnentrar);
+                    btnesqueceu = findViewById(R.id.btnesqueceu);
+                    btncadastrar = findViewById(R.id.btncadastrar);
+
+
+                    btnentrar = btnentrar.setOnClickListener();
+                    {
+                        @Override
+                        public void onClick (View View){
+                        Toast.makeText(getApplicationContext()),
+                                "voce entrou",
+                                Toast.LENGTH_SHORT).show();
+                    }
+                        btnesqueceu = btnesqueceu.setOnClickListener();
+                        {
+                            @Override
+                            public void onClick (View View){
+                            Toast.makeText(getApplicationContext()),
+                                    "mude sua senha",
+                                    Toast.LENGTH_SHORT).show();
+                        }
+                        }
+                        btncadastrar= btncadastrar.setOnClickListener();
+                        {
+                            @Override
+                            public void onClick (View View){
+                            Toast.makeText(getApplicationContext()),
+                                    "cadastro concluido",
+                                    Toast.LENGTH_SHORT).show();
+                        }
+                        }
+                    } ;
+
+
+                }
+                public class TerceiraTela extends AppCompatActivity {
+                protected void TercediraTela(View view){
+                    @Override
+                    protected void onCreate(Bundle savedInstanceState) {
+                        super.onCreate(savedInstanceState);
+                        setContentView(R.layout.activity_main);
+
+                        EditText edtusario, edtsenha, edtemail, edttelefone;
+                        Button btncadastrar, btnentrar;
+
+                        btncadastrar = findViewById(R.id.btncadastrar);
+                        btnentrar = findViewById(R.id.btnentrar);
+
+                            btncadastrar = btncadastrar.setOnClickListener();
+                            {
+                                @Override
+                                public void onClick (View View){
+                                Toast.makeText(getApplicationContext()),
+                                        "cadastro concluido",
+                                        Toast.LENGTH_SHORT).show();
+                            }
+                                btnentrar = btnentrar.setOnClickListener();
+                                {
+                                    @Override
+                                    public void onClick (View View){
+                                    Toast.makeText(getApplicationContext()),
+                                            "login efetuado",
+                                            Toast.LENGTH_SHORT).show();
+                                }
+                                }
+
+
+
+
+
+
+
+                }
+            }
+        }
+
+    }
+                }
