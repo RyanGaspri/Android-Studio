@@ -1,0 +1,82 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo1">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/fundo3"
+        android:src="@drawable/gc"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <EditText
+        android:id="@+id/edtusuario"
+        android:layout_width="303dp"
+        android:layout_height="50dp"
+        android:background="@drawable/fundo4"
+        android:drawableRight="@drawable/person"
+        android:hint="User Name"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="277dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/edtsenha"
+        android:layout_width="303dp"
+        android:layout_height="50dp"
+        android:background="@drawable/fundo4"
+        android:drawableRight="@drawable/lock"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="352dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnentrar"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/fundo5"
+        android:text="Sing In"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="473dp" />
+
+    <CheckBox
+        android:id="@+id/guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="416dp"
+        android:text="Remember Password"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        />
+
+
+    <Button
+        android:id="@+id/btnesqueceu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/fundo5"
+        android:text="Forget Password?"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="473dp"
+        android:padding="5dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
